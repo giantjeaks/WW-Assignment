@@ -1,2 +1,2 @@
 # WW-Assignment
-NodeJs and React Pratice [Expense and Income]
+Only back-end duty
