@@ -9,10 +9,7 @@ router.get('/ss', function(req, res, next) {
 
 
 router.get('/:id', (req, res) => {
-  // User.findById(req.params.id)
-  //   .then((data) => {
-  //     res.send(data)
-  //   })
+
   UserController.findUser(req,res);
 })
 
@@ -22,11 +19,8 @@ router.post('/login', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-  // console.log(req.body)
-  // User.create(req.body)
-  //   .then((data) => {
-  //     res.send(data)
-  //   })
+
   UserController.createNewUser(req,res);
 })
+
 module.exports = router;

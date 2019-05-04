@@ -14,35 +14,23 @@ router.get('/', (req, res) => res.send('hello'))
 
 
 
-router.get('/transactions', (req, res) => {
-  // Transaction.find({ user: req.query.user })
-  //   .then((data) => {
-  //     res.send(data)
-  //   })
+router.get('/transactions', function(req, res){
+
   TransactionController.getTrans(req,res)
 })
 
-router.post('/transactions', (req, res) => {
-  // Transaction.create(req.body)
-  //   .then((data) => {
-  //     res.send(data)
-  //   })
+router.post('/transactions', function(req, res){
+
   TransactionController.createTrans(req,res);
 })
 
-router.put('/transactions/:id', (req, res) => {
-  // Transaction.findOneAndUpdate({ _id: req.params.id }, req.body)
-  //   .then((data) => {
-  //     res.send(data)
-  //   })
+router.put('/transactions/:id', function(req, res){
+
   TransactionController.updateTrans(req,res)
 })
 
-router.delete('/transactions/:id', (req, res) => {
-  // Transaction.findOneAndRemove({ _id: req.params.id })
-  //   .then((data) => {
-  //     res.send(data)
-  //   })
+router.delete('/transactions/:id',function(req, res){
+
   TransactionController.deleteTrans(req,res)
 })
 
