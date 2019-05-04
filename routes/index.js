@@ -1,6 +1,4 @@
 var express = require('express');
-var User = require('../Model/User');
-var Transaction = require('../Model/Transaction');
 var router = express.Router();
 var TransactionController = require('../Controller/TransactionController');
 
