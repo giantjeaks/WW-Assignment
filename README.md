@@ -2,7 +2,7 @@
 **This is my Node API practice for Expense & Income App.**
 ## User :busts_in_silhouette:
 - Controller -> UserController.js
-    - createNewUser (Regis)
+    - createNewUser [Register](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#1-create-user) 
     - login (Authen)
     - findUser (get user details via id)
 
