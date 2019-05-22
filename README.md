@@ -165,5 +165,5 @@ Body:
 `DELETE` /transactions/:id 
 - delete transaction by transaction ID
 
-**Example:** `PUT` /transactions/5c39fb3991d29e00d406d3f1 
-- delete transaction that transaction ID is equal 5c39fb3991d29e00d406d3f1
+**Example:** `DELETE` /transactions/5c39fb3991d29e00d406d3f1 
+- delete transaction which ID equals 5c39fb3991d29e00d406d3f1
