@@ -22,7 +22,6 @@ TransactionController.getTrans = function(req,res) {
 TransactionController.updateTrans = function(req,res){
     Transaction.findOneAndUpdate({ _id: req.params.id }, req.body,{useFindAndModify:false})
     .then((data) => {
-        console.log(data)
       res.send(data)
     })
 }
