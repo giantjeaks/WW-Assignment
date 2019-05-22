@@ -3,15 +3,15 @@
 ## User :busts_in_silhouette:
 - Controller -> UserController.js
     - createNewUser [Register](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#1-create-user) 
-    - login (Authen)
-    - findUser (get user details via id)
+    - login [Authen Login](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#3-login)
+    - findUser [Getuser information by ID](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#2-get-user-information)
 
 ## Transaction :page_facing_up:
 - Controller -> UserController.js 
-    - createTrans  (Add new transaction)
-    - getTrans (Get Transaction by user)
-    - updateTrans (Edit Transaction by user_id)
-    - deleteTrans (Delete Transactins by Transaction_id)
+    - createTrans  [Add new transaction](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#4-create-new-transaction)
+    - getTrans [Get Transactions by user](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#5-get-transaction-by-user-id)
+    - updateTrans [Update Transaction by id](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#6-update-transaction-by-id)
+    - deleteTrans [Delete Transactins by id](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#7-delete-transaction)
 
 
 
