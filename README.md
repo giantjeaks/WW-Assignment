@@ -1,5 +1,7 @@
 # RESTful-Node.js
 **This is my Node API practice for Expense & Income App.**
+**You can try demo on https://nodeapialancx.herokuapp.com**
+
 ## User :busts_in_silhouette:
 - Controller -> UserController.js
     - createNewUser [Register](https://github.com/giantjeaks/RESTful-Node.js/blob/master/README.md#1-create-user) 
