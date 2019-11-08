@@ -12,8 +12,8 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://localhost/test', {useNewUrlParser: true});
-// view engine setup
+mongoose.connect('mongodb://sa:Alancx1475963@alancx-shard-00-00-na9pp.gcp.mongodb.net:27017,alancx-shard-00-01-na9pp.gcp.mongodb.net:27017,alancx-shard-00-02-na9pp.gcp.mongodb.net:27017/test?ssl=true&replicaSet=Alancx-shard-0&authSource=admin&retryWrites=true&w=majority',
+ {useNewUrlParser: true});
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
